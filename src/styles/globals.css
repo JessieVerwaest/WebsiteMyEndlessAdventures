@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#header {
+  height: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  font-weight: 800;
+}
+@media (max-width: 768px) {
+  .header {
+    height: 50px;
+  }
+}
