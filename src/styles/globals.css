@@ -7,9 +7,30 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: larger;
   font-weight: 800;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 @media (max-width: 768px) {
   .header {
     height: 50px;
   }
+}
+#links{
+  color: #000;
+  transition: color 0.3s ;
+}
+#links:hover{
+  color: #5CA4F9;
+}
+
+#footer {
+  height: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.search-bar{
+  display: none;
 }
