@@ -41,7 +41,6 @@ const MyCarousel = ({
   };
 
   useEffect(() => {
-    // Auto-rotate every 3 seconds (adjust the interval as needed)
     const autoRotateInterval = setInterval(() => {
       nextSlide();
     }, 7000); // 7 seconds
@@ -87,6 +86,7 @@ const MyCarousel = ({
               rel="noopener noreferrer"
             >
               <img
+                loading="eager"
                 src={image}
                 alt={`Slide ${index + 1}`}
                 className="w-full h-full object-cover transform translate-x-0"
