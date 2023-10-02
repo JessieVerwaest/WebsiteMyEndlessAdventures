@@ -8,10 +8,6 @@ import {
   faCircleChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-interface CarouselProps {
-  images: string[];
-}
-
 const MyCarousel = ({
   images,
   imageLinks,
