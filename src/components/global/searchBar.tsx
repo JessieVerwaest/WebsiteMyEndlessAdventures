@@ -1,7 +1,7 @@
-"use client"
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+"use client";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
 
 const searchBar: React.FC = () => {
   const [showSearchBar, setShowSearchBar] = useState(false);
@@ -13,7 +13,7 @@ const searchBar: React.FC = () => {
   return (
     <div>
       {showSearchBar ? (
-        <div className='w-24'>
+        <div className="w-24">
           <input type="text" placeholder="Search" />
           <button onClick={toggleSearch}>Close</button>
         </div>

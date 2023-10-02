@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function Footer() {
   return (
-    <div id="footer" className="grid grid-cols-3 content-center mx-12">
+    <footer id="footer" className="grid grid-cols-3 content-center px-12 w-full">
       <div>
         <FontAwesomeIcon icon={faCopyright} />
         2023 - My Endless Adventures. All Rights Reserved.
@@ -29,6 +29,6 @@ export function Footer() {
           <FontAwesomeIcon size="lg" icon={faPinterest} />
         </a>
       </div>
-    </div>
+    </footer>
   );
 }

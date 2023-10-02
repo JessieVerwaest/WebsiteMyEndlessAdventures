@@ -9,7 +9,7 @@ import logo from "@/assets/MyEndlessAdventuresLogo.jpg";
 
 export function Header() {
   return (
-    <div
+    <header
       id="header"
       className="flex flex-row justify-between w-full align-center px-12 py-6"
     >
@@ -36,6 +36,6 @@ export function Header() {
           <SearchBar/>
         </div>*/}
       </div>
-    </div>
+    </header>
   );
 }
